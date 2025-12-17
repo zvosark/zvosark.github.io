@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #2c7be5;
+    color: white;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+h3 {
+    color: #2c7be5;
+}
+
+a {
+    color: #2c7be5;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+.photo-container {
+    width: 260px;
+    height: 260px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #2c7be5;
+    border-radius: 50%;
+    background-color: #ffffff;
+    overflow: hidden; /* Ensures content that goes outside the container is hidden */
+}
+
+.photo {
+    width: 100%; /* Make the image fit the container's width */
+    height: 100%; /* Make the image fit the container's height */
+    border-radius: 50%;
+    object-fit: contain; /* Ensures the image stays within the circle without distortion */
+    transform: translateX(20px);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+blockquote {
+    font-style: italic;
+    background-color: #eef3ff;
+    padding: 10px;
+    border-left: 5px solid #2c7be5;
+}
+
+footer {
+    text-align: center;
+    background-color: #2c7be5;
+    color: white;
+    padding: 10px;
+}
